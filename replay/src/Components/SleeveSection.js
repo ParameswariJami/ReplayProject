@@ -181,21 +181,21 @@ const SleeveSection = () => {
         </Subtitle>
         <ThemesGrid>
           <ThemeCard>
-            <ThemeImage src="https://via.placeholder.com/200" alt="Eternal Sunshine" />
+            <ThemeImage src={require('../Images/ThemeUIDark.png')} alt="Eternal Sunshine" />
             <ThemeInfo>
               <ThemeTitle>Eternal Sunshine</ThemeTitle>
               <ThemeSubtitle>Forgotten Feels<br />Slow Magic</ThemeSubtitle>
             </ThemeInfo>
           </ThemeCard>
           <ThemeCard>
-            <ThemeImage src="https://via.placeholder.com/200" alt="Bunny Is a Rider" />
+            <ThemeImage src={require('../Images/Music.png')} alt="Bunny Is a Rider" />
             <ThemeInfo>
               <ThemeTitle>Bunny Is a Rider</ThemeTitle>
               <ThemeSubtitle>Caroline Polachek</ThemeSubtitle>
             </ThemeInfo>
           </ThemeCard>
           <ThemeCard>
-            <ThemeImage src="https://via.placeholder.com/200" alt="Lost Souls" />
+            <ThemeImage src={require('../Images/Music2.png')} alt="Lost Souls" />
             <ThemeInfo>
               <ThemeTitle>Lost Souls</ThemeTitle>
               <ThemeSubtitle>Baby Keem</ThemeSubtitle>
